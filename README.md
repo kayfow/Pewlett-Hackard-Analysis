@@ -10,6 +10,10 @@ With any company that has been around for a long time, sometimes updates and upg
 * For mentorship, 1941 meet eligibility requirement to serve as mentors if they so choose.
 * The retiring titles for PH range from senior to general staff positions, with senior engineers (44312) and senior staff (43797) having the highest. 
 
+<img width="235" alt="retiring_titles" src="https://user-images.githubusercontent.com/89712224/159204608-0a6f08b2-5254-4133-9af4-f9b068dc659a.png">
+<img width="173" alt="retiringbydept" src="https://user-images.githubusercontent.com/89712224/159204610-b06ad23d-3252-4e3b-8084-c747541cebe5.png">
+
+
 ### Summary: 
 * The number of roles that will need to filled to even out those that are retiring are 162,856.
 * At the moment, by department, there are not enough qualified, retirement-ready employees   to mentor those coming into PH (total: 36,619 by department; 1941 meet eligibility ); Additionally, if PH is looking to match mentors by the mentor's previous department to the current employees department, there may not be an even distribution. 
