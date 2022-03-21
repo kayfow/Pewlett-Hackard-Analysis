@@ -39,3 +39,22 @@ SELECT COUNT (title), ut2.title
 FROM  unique_titles2 as ut2
 GROUP BY ut2.title
 ORDER BY count DESC;
+
+
+-- Mentorship Eligibility table for current employees who were born between January 1, 1965 and December 31, 1965
+SELECT DISTINT ON (emp_no)
+e.emp_no,
+e.first_name,
+e.last_name,
+e.birth_date,
+de.from_date,
+de.to_date,
+tl.title
+INTO mentorship_elig
+FROM employees as e 
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles AS tl
+ON (de.emp_no = tl.emp_no)
+WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY emp_no DESC;
